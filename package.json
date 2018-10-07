@@ -1,0 +1,20 @@
+{
+  "name": "node-lts-notifier",
+  "version": "0.1.0",
+  "description": "A CLI tool that checks the node.js RSS feed and sends a mail notification mail whenver it detects a new LTS version is",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "lts", "mail-notification"],
+  "author": "Osher",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "nodemailer": "^4.6.8",
+    "xml2js": "^0.4.19"
+  }
+}
