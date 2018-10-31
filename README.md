@@ -17,9 +17,11 @@ TBD
 
 # Usage
 
-```
-node-lts
-```
+TBD
+
+
 
 # Future
- - support nodemailer aws transport
+ - finish the CLI layer
+ - update the README.md with config examples
+ - support nodemailer aws transport 
