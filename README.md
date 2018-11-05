@@ -25,7 +25,11 @@ The way I run it now is using a Jenkins job, where the command is in the followi
 node -e "require('node-lts-notifier/lib')({reportFrom: 'Node LTS Notifier<no-reply@example.com>', reportTo: ['devteam@example.com','opsteam@example.com'], smtp: { host: 'mailgw.example.com',  tls: { rejectUnauthorized: false }}}).then(console.log);"
 ```
 
-The smtp object is passed to `nodemailer` - you may pass whatever you like :)
+Mind the `smtp` field in the passed options.
+This example is the simplest - it uses a local relay. 
+
+However - this  `smtp` object is currently passed as is to `nodemailer` - so you may pass whatever you need, including creds.
+The only `nodemailer` config that is not trivial is `aws transport` - which will be dealt in the future.
 
 
 # Future

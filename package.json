@@ -1,18 +1,28 @@
 {
   "name": "node-lts-notifier",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A CLI tool that checks the node.js RSS feed and sends a mail notification mail whenver it detects a new LTS version is",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "keywords": [
     "nodejs",
     "lts",
     "mail-notification"
   ],
-  "author": "Osher",
   "license": "ISC",
+  "homepage": "https://github.com/osher/node-lts-notifier#readme",
+  "bugs": {
+    "url": "https://github.com/osher/node-lts-notifier/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osher/node-lts-notifier.git"
+  },
+  "main": "lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "check-node-lts": "lts-notif"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "debug": "^4.0.1",

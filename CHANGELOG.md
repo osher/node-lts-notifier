@@ -1,3 +1,7 @@
+0.1.2
+-------
+ - updated package.json fields 
+
 0.1.1
 -------
  - updated README.md
