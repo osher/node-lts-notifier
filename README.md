@@ -31,14 +31,16 @@ tried path:
 
 effecting env-vars:
  - LTS_NOTIF_FILE - path to the yaml file
- - LTS_NOTIF_HOME - when LTS_NOTIF_FILE is unset, may indicate location of .lts-notif.yaml
+ - LTS_NOTIF_HOME - when LTS_NOTIF_FILE is unset, may indicate location of a .lts-notif.yaml file
  - HOME/HOMEPATH  - when LTS_NOTIF_HOME is unset, .lts-notif.yaml is searched in user's home directory
 
 error:
-  ENOENT: no such file or directory, open 'C:\Users\onetanany\.lts-notif.yaml'
+  ENOENT: no such file or directory, open '/home/centos/.lts-notif.yaml'
 ```
 
-The file it's looking for should look like the following example:
+If you provided a full path usign `LTS_NOTIF_FILE` or you provided the path to the directory a `.lts-notif.yaml` is found using `LTS_NOTIF_HOME`, or you have placed it in your home directory -
+the file it's looking for should look like the following example:
+
 ```
 message:
   to:
