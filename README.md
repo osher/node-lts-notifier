@@ -71,11 +71,11 @@ reported:
    It does so in order to remember what it has already reported before.
 
 # Usage
-##since `0.4.0`:
+## since `0.4.0`:
 
 Run the `node-lts-notif` from your shell or from your favorite schedueler.
 
-##since `0.1.2`:
+## since `0.1.2`:
 This initial version implements only the core module, without the `bin` file to wrap it in a mature CLI - this wrap will come in the future, as my free time allows it.
 
 The way I run it now is using a Jenkins job, where the command is in the following spirit (domain and emails replaced with `example.com`):
