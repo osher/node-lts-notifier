@@ -1,3 +1,9 @@
+0.4.0
+-------
+ - refactored, broken down to files
+ - works as a CLI with valid configs, still needs dummy-proof config validation.
+ - supports providing a custom formatter module
+
 0.1.2
 -------
  - updated package.json fields 

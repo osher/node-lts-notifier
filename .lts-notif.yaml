@@ -1,0 +1,24 @@
+message:
+  to:
+   - name:    Osher El-Netanany
+     address: onetanany@blackberry.com
+  disabled:
+   - sbensimchon@blackberry.com
+   - egilron@blackberry.com
+   - amokovsky@blackberry.com
+   - gshrabany@blackberry.com
+   - oberlinketer@blackberry.com
+   - ogeva@blackberry.com
+  from:
+   - name:    Node LTS
+     address: noreply@sealdoc.com
+
+nodemailer:
+  type:     smtp
+  options:
+    host:   mailgw.sealdoc.com
+    tls:
+      rejectUnauthorized: false
+
+reported:
+ - Node v6.15.1 (LTS) - Mon, 03 Dec 2018 14:13:12 GMT
