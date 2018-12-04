@@ -33,5 +33,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mocha-ui-exports": "^1.1.0",
+    "should": "^13.2.3",
+    "sinon": "^7.1.1"
   }
 }
