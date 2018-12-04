@@ -1,3 +1,7 @@
+0.4.1
+------
+ - fix bug in lib/formatter> .subject({title})
+
 0.4.0
 -------
  - refactored, broken down to files
