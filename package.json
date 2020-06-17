@@ -1,6 +1,6 @@
 {
   "name": "node-lts-notifier",
-  "version": "0.4.0",
+  "version": "0.4.3",
   "description": "A CLI tool that checks the node.js RSS feed and sends a mail notification mail whenver it detects a new LTS version is",
   "keywords": [
     "nodejs",
@@ -26,18 +26,18 @@
   "dependencies": {
     "axios": "^0.19.2",
     "colors": "^1.4.0",
-    "debug": "^4.2.1",
+    "debug": "^4.1.0",
     "js-yaml": "^3.14.0",
     "nodemailer": "^4.6.8",
     "xml2js": "^0.4.23"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
+    "mocha": "^7.2.0",
     "mocha-ui-exports": "^1.1.0",
     "should": "^13.2.3",
-    "sinon": "^7.1.1"
+    "sinon": "^9.0.2"
   }
 }

@@ -1,3 +1,7 @@
+0.4.2
+------
+ - bump dependency versions for security patches by dependabot and snyk
+
 0.4.1
 ------
  - fix bug in lib/formatter> .subject({title})
