@@ -24,7 +24,7 @@
     "node-lts-notif": "bin/lts-notif"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.2",
     "colors": "^1.4.0",
     "debug": "^4.2.1",
     "js-yaml": "^3.12.0",
