@@ -35,7 +35,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "mocha-ui-exports": "^1.1.0",
     "should": "^13.2.3",
     "sinon": "^9.0.2"
